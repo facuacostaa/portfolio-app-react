@@ -36,6 +36,7 @@ const Work = () => {
       </span>
       <div className="pt-8 text-center ">
         {/* eslint-disable-next-line */}
+        {index > 0 ?(
         <a href={item.github} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
@@ -44,6 +45,7 @@ const Work = () => {
             Code
           </button>
         </a>
+        ) : null}
         {/* eslint-disable-next-line */}
         {index === 0 ? (
         <a href={"https://smafsebamontenegro.site/"} target="_blank">
