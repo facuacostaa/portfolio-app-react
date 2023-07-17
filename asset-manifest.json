@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "./static/css/main.99a770d2.css",
-    "main.js": "./static/js/main.4fd73590.js",
+    "main.js": "./static/js/main.4f772d8e.js",
     "static/media/sebamontenegro.png": "./static/media/sebamontenegro.390e8506683b4380bcf5.png",
     "static/media/realestate.jpg": "./static/media/realestate.44fd19f4c6872731149c.jpg",
+    "static/media/cryptobase.jpeg": "./static/media/cryptobase.791f6bc91032fb7ac370.jpeg",
     "static/media/fa.png": "./static/media/fa.2ecbe899e4715cbe455f.png",
     "static/media/react.png": "./static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/mongo.png": "./static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -17,10 +18,10 @@
     "static/media/javascript.png": "./static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "./index.html",
     "main.99a770d2.css.map": "./static/css/main.99a770d2.css.map",
-    "main.4fd73590.js.map": "./static/js/main.4fd73590.js.map"
+    "main.4f772d8e.js.map": "./static/js/main.4f772d8e.js.map"
   },
   "entrypoints": [
     "static/css/main.99a770d2.css",
-    "static/js/main.4fd73590.js"
+    "static/js/main.4f772d8e.js"
   ]
 }
