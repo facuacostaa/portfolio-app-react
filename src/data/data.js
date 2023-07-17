@@ -11,17 +11,10 @@ export const data=[
     },
     {
         id:2,
-        name:"React JS Application",
+        name:"Crypto app",
         image:RealEst,
-        github:"",
-        live:"",
-    },
-    {
-        id:3,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
+        github:"https://github.com/facuacostaa/Crypto-react",
+        live:"https://facuacostaa.github.io/Crypto-react/",
     },
 
 
