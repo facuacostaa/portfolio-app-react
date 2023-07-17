@@ -22,7 +22,7 @@ const Work = () => {
 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           
           {/* Gird Item */}
-          {project.map((item, index) => (
+          {project.slice(0, 3).map((item, index) => (
   <div
     key={index}
     style={{ backgroundImage: `url(${item.image})` }}
@@ -45,7 +45,8 @@ const Work = () => {
           </button>
         </a>
         {/* eslint-disable-next-line */}
-        <a href={item.live} target="_blank">
+        {index === 0 ? (
+        <a href={"https://smafsebamontenegro.site/"} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -53,6 +54,14 @@ const Work = () => {
             Live
           </button>
         </a>
+        ) : (
+          <a href={item.live} target="_blank">
+          <button
+            className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg"
+          >Live</button>
+          </a>
+        )}
       </div>
     </div>
   </div>

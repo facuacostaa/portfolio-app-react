@@ -1,11 +1,11 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
+import Wordpress from '../assets/projects/sebamontenegro.png'
 import RealEst from '../assets/projects/realestate.jpg'
 
 export const data=[
     {
         id:1,
-        name:"React JS Application",
-        image:WorkIm,
+        name:"Wordpress website",
+        image:Wordpress,
         github:"",
         live:"",
     },
@@ -18,13 +18,6 @@ export const data=[
     },
     {
         id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:4,
         name:"React JS Application",
         image:RealEst,
         github:"",
